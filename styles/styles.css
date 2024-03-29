@@ -1,0 +1,55 @@
+.gradient-background {
+    background: linear-gradient(290deg, #4e124b, #ed94f0, #4a2662);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.container{
+    height: 80vh;
+}
+
+.btn1 {
+    padding: 2px 15px;
+    border-radius: 3em;
+    border: 2px solid #A94438;
+    background-color: #FFF3C7;
+    color: #A94438;
+}
+
+input{
+    border: 2px solid #000000;
+    border-radius: 3em;
+}
+
+.loved-by {
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-size: 3em;
+}
+
+a{
+    color: rgb(65, 62, 62);
+}
+
+
+
+.card{
+    background-color: #1b1a1a;
+}
+  
